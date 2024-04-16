@@ -1,0 +1,11 @@
+id = "zed-capnp"
+name = "Cap'n Proto"
+version = "0.0.1"
+schema_version = 1
+authors = ["Cole Mackenzie <cole@mirio.dev>"]
+description = "Cap'n Proto syntax for Zed"
+repository = "https://github.com/cmackenzie1/zed-capnp"
+
+[grammars.capnp]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-capnp"
+commit = "dc28c9f4212809eab74d10996086297853eb34e5"

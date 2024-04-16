@@ -1,0 +1,7 @@
+name = "Cap'n Proto"
+grammar = "capnp"
+path_suffixes = ["capnp"]
+line_comment = "# "
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+]
