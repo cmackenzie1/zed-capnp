@@ -9,7 +9,7 @@ impl zed::Extension for CapnpExtension {
 
     fn language_server_command(
         &mut self,
-        _config: zed::LanguageServerConfig,
+        _language_server_id: &zed::LanguageServerId,
         _worktree: &zed::Worktree,
     ) -> Result<zed::Command> {
         Err("Not implemented".into())
